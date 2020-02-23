@@ -1,2 +1,3 @@
+v1.6: fixed all typos in links.
 v1.5: added tool bar button and popup
 v1.4: initial release (prev 3 contained typos)
