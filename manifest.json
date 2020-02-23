@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "homemade-avery-ucsb-linker",
+  "version": "1.5",
+  
+  "icons": {
+    "48": "../icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "../icon.png",
+    "default_title": "beep",
+    "default_popup": "popup/menu.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.proquest.com/avery/*"],
+      "js": ["/content_script/beep.js"]
+    }
+  ],
+  "browser_specific_settings": {
+  	"gecko": {
+  		"update_url": "https://raw.githubusercontent.com/li-yichen/homemade-avery-ucsb-linker/master/updates.json"
+  	}
+  }
+}

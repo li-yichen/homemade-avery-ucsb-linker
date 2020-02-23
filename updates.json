@@ -1,0 +1,21 @@
+{
+  "addons": {
+    "{538073df-75e2-4154-8b13-ea70011c7531}": {
+      "updates": [
+        {
+          "version": "1.4",
+          "update_link": "https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/older-versions/homemade_ucsb_avery_linker_version_1.4.xpi?raw=true"
+        },
+        {
+          "version": "1.5",
+          "update_link": "https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/homemade_ucsb_avery_linker_version_1.5.xpi?raw=true",
+        },
+        {
+          "version": "1.6",
+          "update_link": "https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/homemade_ucsb_avery_linker_version_1.6.xpi?raw=true",
+          "update_info_url":"https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/release_notes.txt?raw=true"
+        }
+      ]
+    }
+  }
+}
