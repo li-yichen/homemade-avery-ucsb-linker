@@ -137,11 +137,11 @@ Please also respect other people and follow the the Contributor Covenant (the co
   if you'd like to generate a new list of journals with python, jsonmaker.py requires: pandas, json, os.
   
 ## versions log \*<|:-)
-<sub>we moved too fast and forgot many stuff</sub>
+<sub>moved too fast and broke stuff</sub>  
 v1.4: previous 3 contained too many typos   
 v1.5: added toolbar button and popup  
 v1.6: fixed typo in popup link 
-v1.7: fixed many other typos
-v1.8: fixed even more typos and updated the lists of journals
+v1.7: fixed many other typos  
+v1.8: fixed even more typos and updated the lists of journals  
 # thank you for visiting this page \*<|:-3
 <img src="../master/large.png" alt="alt text: icon of extension as large photo, white on dark gray emoticon of santa hat">
