@@ -47,7 +47,7 @@ it does this:
 
 ## FLAWS (PLEASE READ) \*<|:-|
 while the code will hopefully work on your browser,
-### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve this** (see [updates and contribution \*<|:-)](#updates-and-contribution--))  
+### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 the developer(s) will also try to update these lists over time as they use the index.</br>
 please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
 
@@ -56,7 +56,7 @@ a) ***easiest way***: to install this on firefox with the .xpi file, **please do
 on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
 --------feel free to stop reading now--------  
-b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for ways you can help ~~improve~~ rewrite this tool.
+b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for ways you can help ~~rewrite~~improve  this tool.
 
 ## this will not work with: \*<|:-(
 safari
@@ -65,12 +65,12 @@ safari
 chrome (plz reach out if you know how to do it
 
 ## customization ~~\*<|:-)~~
-To modify anything, please install this by downloading:  
+To modify anything, please install this by making a new folder on your computer, containing:  
 * [content_script/](https://github.com/li-yichen/homemade-avery-ucsb-linker/tree/master/content_script?raw=true)
 * [popup/](https://github.com/li-yichen/homemade-avery-ucsb-linker/tree/master/popup?raw=true)
 * [icon.png](https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/icon.png?raw=true)
 * [manifest.json](https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/manifest.json?raw=true)</br>
-then put them into a folder. see the section "Loading a temporary extension" of https://developer.mozilla.org/en-US/docs/Tools/about:debugging.</br>
+and see the section "Loading a temporary extension" of https://developer.mozilla.org/en-US/docs/Tools/about:debugging.</br>
 to modify background color, color, and font family for links, please go to beep.js and change the respective variables from line 1554 to 1579 (see below) <sup>If you do not like the santa/fuzzy ball hat emoticon " *<|:-) " in the links or the " (′▽\`〃) " emoticon on your browser console log, please edit lines 1571, 1595 of the beep.js file and delete them from the respective variables to which they rightfully belong. </sup>
 ```
     // code excerpt starts here -->
@@ -120,8 +120,8 @@ to modify background color, color, and font family for links, please go to beep.
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then upload the two tsv files when asked  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download of .json files should automatically start  
 THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.)  
-2. **if you would like to ~~improve~~rewrite the code:** any help is appreciated. *to contribute to this repository, please email the owner(s) of this repository about what you plan on improving, and so that they could add you as an owner on the firefox add-on project page*  
-Please also respect other people and follow the the Contributor Covenant (the code of conduct), version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.  
+2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. *to contribute to this repository, please email the owner(s) of this repository about what you plan on improving, and so that they could add you as an owner on the firefox add-on project page to make facilitate updates*  
+Please also respect other people and follow the the <sup>probably an overkill</sup>Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 areas needing contribution are:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.1 convoluted data storage and retrieval   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.2 two whole 1500+ lines json files are in the script  
@@ -137,9 +137,9 @@ Please also respect other people and follow the the Contributor Covenant (the co
   if you'd like to generate a new list of journals with python, jsonmaker.py requires: pandas, json, os.
   
 ## versions log \*<|:-)
-<sub>moved too fast and broke stuff</sub>  
+<sub>despite the large version numbers, the code itself did not change very drastically, the developer moved too fast and broke stuff</sub>  
 v1.4: previous 3 contained too many typos   
-v1.5: added toolbar button and popup  
+v1.5: added toolbar button and popup!  
 v1.6: fixed typo in popup link 
 v1.7: fixed many other typos  
 v1.8: fixed even more typos and updated the lists of journals  
