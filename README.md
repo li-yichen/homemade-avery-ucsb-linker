@@ -47,7 +47,7 @@ it does this:
 
 ## FLAWS (PLEASE READ) \*<|:-|
 while the code will hopefully work on your browser,
-### **the tool would label some journals as "ucsb-try-to-find" since the journal is not in the lists of available or unavailable Avery-indexed journals**. The lists are based on the antique ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve this** (see [updates and contribution \*<|:-)](#updates-and-contribution--))  
+### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve this** (see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 the developer(s) will also try to update these lists over time as they use the index.</br>
 please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
 
@@ -137,8 +137,11 @@ Please also respect other people and follow the the Contributor Covenant (the co
   if you'd like to generate a new list of journals with python, jsonmaker.py requires: pandas, json, os.
   
 ## versions log \*<|:-)
+<sub>we moved too fast and forgot many stuff</sub>
 v1.4: previous 3 contained too many typos   
 v1.5: added toolbar button and popup  
-v1.6(current version): fixed typo in popup link  
+v1.6: fixed typo in popup link 
+v1.7: fixed many other typos
+v1.8: fixed even more typos and updated the lists of journals
 # thank you for visiting this page \*<|:-3
 <img src="../master/large.png" alt="alt text: icon of extension as large photo, white on dark gray emoticon of santa hat">
