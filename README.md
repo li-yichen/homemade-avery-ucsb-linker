@@ -48,7 +48,7 @@ it does this:
 ## FLAWS (PLEASE READ) \*<|:-|
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
-### given the lack of uniformity of the publication names (e.g. the lack or inclusion of special characters, extra or missing phrases) on Proquest search results, the searches from "ucsb-try-to-find"  sometimes lead to no results, even if the journal is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
+### given the nonuniformity of the publication names on Proquest (often multiple written forms of same publication), the resulting searches (e.g."A V monografías = A V monographs") from "ucsb-try-to-find" sometimes lead to no results, even if the journal (e.g. "A&V") is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
 ### there may be more unknown problems.
 the developer(s) will also try to update these lists over time as they use the index.</br>
 please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
