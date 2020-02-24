@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "homemade-avery-ucsb-linker",
-  "version": "1.7",
+  "version": "1.8",
   
   "icons": {
     "48": "../icon.png"

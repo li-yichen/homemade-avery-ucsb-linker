@@ -1,3 +1,4 @@
+v1.8: fixed wrong links again, updated list of journals.
 v1.7: fixed typos in popup
 v1.6: fixed all typos in links.
 v1.5: added tool bar button and popup

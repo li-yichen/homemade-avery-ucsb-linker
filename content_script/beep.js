@@ -252,7 +252,7 @@ var journals = {
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0747-9360&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,0747-9360"
     },
     "The Architect's Journal": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_SCP_SERIALS680544440&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,0003-8466&offset=0&journals=any,0003-8466"
     },
     "DoCoMoMo journal": {
@@ -668,15 +668,15 @@ var journals = {
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0044-2992&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,0044-2992"
     },
     "A & V": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_ALMA21214710210003776&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,A%20&%20V&%20V&offset=0&journals=any,A%20"
     },
     "Access by Design": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_SCP_SERIALS502282636&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,Access%20by%20design&offset=0&journals=any,Access%20by%20design\","
     },
     "California arts and architecture": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_ALMA21177524200003776&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,California%20arts%20and%20architecture&offset=0&journals=any,California%20arts%20and%20architecture"
     },
     "Architettura": {
@@ -684,27 +684,27 @@ var journals = {
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0003-8830&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,0003-8830"
     },
     "Ottagono": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0003-8830&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,Ottagono"
     },
     "Building design": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_SCP_SERIALS60619270&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,0007-3423&offset=0&journals=any,0007-3423"
     },
     "Inland architect": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_SCP_SERIALS565102571&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,0003-8830&offset=0&journals=any,Inland%20architect"
     },
     "Architectural design": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0003-8504&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,0003-8504"
     },
     "Planning": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?query=any,contains,0001-2610&tab=jsearch_slot&vid=UCSB&lang=en_US&offset=0&journals=any,0001-2610"
     },
     "Architektur, Innenarchitektur, Technischer Ausbau": {
-        "issn": NaN,
+        "issn": "",
         "url": "https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/jfulldisplay?docid=01UCSB_ALMA21201053520003776&context=L&vid=UCSB&lang=en_US&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=jsearch_slot&query=any,contains,0003-8830&offset=0&journals=any,Architektur,%20Innenarchitektur,%20Technischer%20Ausbau"
     }
 };
@@ -713,839 +713,835 @@ var journals = {
 var journalsNo = {
     "A + T": {
         "issn": "1132-6409",
-        "url": NaN
+        "url": ""
     },
     "A + U:  architecture and urbanism": {
         "issn": "0389-9160",
-        "url": NaN
+        "url": ""
     },
     "A.mag: international architecture technical magazine": {
         "issn": "2182-472X",
-        "url": NaN
+        "url": ""
     },
     "A V monograf\u00edas": {
         "issn": "0213-487X",
-        "url": NaN
+        "url": ""
     },
     "AV proyectos (Spain)": {
         "issn": "1697-493X",
-        "url": NaN
+        "url": ""
     },
     "A10: new European architecture": {
         "issn": "1573-3815",
-        "url": NaN
+        "url": ""
     },
     "Actas del congreso internacional de arquitectura religiosa\u2026": {
         "issn": "2340-5503",
-        "url": NaN
+        "url": ""
     },
     "AMC:  Moniteur architecture": {
         "issn": "0998-4194",
-        "url": NaN
+        "url": ""
     },
     "Anales de Edificacion": {
         "issn": "2444-1309",
-        "url": NaN
+        "url": ""
     },
     "Anfione zeto": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Annali di architettura": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "AOA: Asociacion de Oficinas de Arquitectos (Chile)": {
         "issn": "0718-3186",
-        "url": NaN
+        "url": ""
     },
     "Apuntes: Revista de Estudios sobre patrimonio cultural": {
         "issn": "2011-9003",
-        "url": NaN
+        "url": ""
     },
     "AR: Arhitektura, Raziskave": {
         "issn": "1581-6974",
-        "url": NaN
+        "url": ""
     },
     "Arca International": {
         "issn": "1027-460X",
-        "url": NaN
+        "url": ""
     },
     "Arcade": {
         "issn": "1095-4775",
-        "url": NaN
+        "url": ""
     },
     "Arch +": {
         "issn": "0587-3452",
-        "url": NaN
+        "url": ""
     },
     "Archeologie medievale": {
         "issn": "0163-9337",
-        "url": NaN
+        "url": ""
     },
     "Architect & builder (South Africa)": {
         "issn": "0003-8407",
-        "url": NaN
+        "url": ""
     },
     "Architect (Netherlands)": {
         "issn": "0925-8630",
-        "url": NaN
+        "url": ""
     },
     "Architect: the journal of the Sri Lanka Institute of Architects": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Architectura: arkitekturhistorisk arsskrift": {
         "issn": "0106-3030",
-        "url": NaN
+        "url": ""
     },
     "Architectural heritage journal (Bhutan)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Architectural science review": {
         "issn": "0003-8628",
-        "url": NaN
+        "url": ""
     },
     "Architecture and ideas": {
         "issn": "1205-7592",
-        "url": NaN
+        "url": ""
     },
     "Architecture Ireland": {
         "issn": "1649-5152",
-        "url": NaN
+        "url": ""
     },
     "Architecture Minnesota": {
         "issn": "0149-9106",
-        "url": NaN
+        "url": ""
     },
     "Architecture New Zealand": {
         "issn": "0113-4566",
-        "url": NaN
+        "url": ""
     },
     "Architecture South Africa": {
         "issn": "1682-9387",
-        "url": NaN
+        "url": ""
     },
     "Architecture today": {
         "issn": "0958-6407",
-        "url": NaN
+        "url": ""
     },
     "Architektur, Innenarchitektur, Technischer Ausbau: AIT": {
         "issn": "0173-8046",
-        "url": NaN
+        "url": ""
     },
     "Architext = Arkhit\u0323ek\u0323st\u0323 : ketav \u02bbet le-arkhit\u0323ek\u0323t\u0323urah": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Archithese": {
         "issn": "1010-3600",
-        "url": NaN
+        "url": ""
     },
     "Arkinka": {
         "issn": "1815-9273",
-        "url": NaN
+        "url": ""
     },
     "Arkitektur N": {
         "issn": "1504-7628",
-        "url": NaN
+        "url": ""
     },
     "Arkkitehti": {
         "issn": "0783-3660",
-        "url": NaN
+        "url": ""
     },
     "Arkkitehtuurikilpailuja = Architectural competitions in Finland": {
         "issn": "0006-7676",
-        "url": NaN
+        "url": ""
     },
     "ARPA Journal": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     },
     "ARQ : Architecture/Quebec": {
         "issn": "1203-1488",
-        "url": NaN
+        "url": ""
     },
     "Arquine": {
         "issn": "1405-6151",
-        "url": NaN
+        "url": ""
     },
     "ArquiSur Revista": {
         "issn": "1815-5898",
-        "url": NaN
+        "url": ""
     },
     "Arquitectos: informacion del Consejo Superior de los Colegios": {
         "issn": "0214-1124",
-        "url": NaN
+        "url": ""
     },
     "Arquitectura viva": {
         "issn": "0214-1256",
-        "url": NaN
+        "url": ""
     },
     "Arquitectura y Urbanismo": {
         "issn": "1815-5898",
-        "url": NaN
+        "url": ""
     },
     "Art4D (Bangkok)": {
         "issn": "0859-161X",
-        "url": NaN
+        "url": ""
     },
     "A/Z: ITU journal of Faculty of Architecture [Turkey]": {
         "issn": "1320-8324",
-        "url": NaN
+        "url": ""
     },
     "Azure": {
         "issn": "0829-982X",
-        "url": NaN
+        "url": ""
     },
     "BAC: Boletin Academico": {
         "issn": "2173-6723",
-        "url": NaN
+        "url": ""
     },
     "Bauwelt": {
         "issn": "0005-6855",
-        "url": NaN
+        "url": ""
     },
     "Bitacora arquitectura (Mexico)": {
         "issn": "1405-8901",
-        "url": NaN
+        "url": ""
     },
     "Bitacora Urbano-Territorial": {
         "issn": "2027-145X",
-        "url": NaN
+        "url": ""
     },
     "Boletin academico: revista de investigacion y arquitectura": {
         "issn": "2173-6723",
-        "url": NaN
+        "url": ""
     },
     "Bulletin monumental": {
         "issn": "0007-473X",
-        "url": NaN
+        "url": ""
     },
     "C:20: the magazine of the Twentieth Century Society": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "C3 Korea": {
         "issn": "1227-6111",
-        "url": NaN
+        "url": ""
     },
     "CA: revista oficial (Ciudad / arquitectura)": {
         "issn": "0716-3622",
-        "url": NaN
+        "url": ""
     },
     "Cahiers de la recherche architecturale et urbaine": {
         "issn": "1296-4077",
-        "url": NaN
+        "url": ""
     },
     "Cahiers thematiques": {
         "issn": "varies",
-        "url": NaN
+        "url": ""
     },
     "Ci[ur]: Cuadernos de investigacion urbanistica": {
         "issn": "2174-5099",
-        "url": NaN
+        "url": ""
     },
     "Cite:  the architecture and design review of Houston": {
         "issn": "8755-0415",
-        "url": NaN
+        "url": ""
     },
     "Ciudad y territorio - Estudios territoriales": {
         "issn": "1133-4762",
-        "url": NaN
+        "url": ""
     },
     "Clara: recherche architecture": {
         "issn": "2295-3671",
-        "url": NaN
+        "url": ""
     },
     "Clem Labine's traditional building": {
         "issn": "0898-0284",
-        "url": NaN
+        "url": ""
     },
     "CLOG": {
         "issn": "2164-9782",
-        "url": NaN
+        "url": ""
     },
     "Colonnes. Hors serie": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Competitions annual": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Connecticut preservation news": {
         "issn": "1084-189X",
-        "url": NaN
+        "url": ""
     },
     "Constelaciones : revista de arquitectura de la Universidad CEU": {
         "issn": "2340-177X",
-        "url": NaN
+        "url": ""
     },
     "Construction history": {
         "issn": "0267-7768",
-        "url": NaN
+        "url": ""
     },
     "Context: built, living and natural (India)": {
         "issn": "0973-502X",
-        "url": NaN
+        "url": ""
     },
     "Country life": {
         "issn": "0045-8856",
-        "url": NaN
+        "url": ""
     },
     "Criticat (France)": {
         "issn": "1961-5981",
-        "url": NaN
+        "url": ""
     },
     "Croquis": {
         "issn": "0212-5683",
-        "url": NaN
+        "url": ""
     },
     "CTBUH journal: tall buildings, design, construction and operation": {
         "issn": "1946-1186",
-        "url": NaN
+        "url": ""
     },
     "Cuadernos de arquitectura y fortificacion": {
         "issn": "2255-1085",
-        "url": NaN
+        "url": ""
     },
     "Cuadernos de investigacion urbanistica": {
         "issn": "2174-5099",
-        "url": NaN
+        "url": ""
     },
     "Cuadernos de proyectos arquitectonicos": {
         "issn": "2174-1131",
-        "url": NaN
+        "url": ""
     },
     "Cuadernos de vivienda y urbanismo": {
         "issn": "2145-0226",
-        "url": NaN
+        "url": ""
     },
     "D[e]signed (India)": {
         "issn": "no issn",
-        "url": NaN
+        "url": ""
     },
     "Detail": {
         "issn": "0011-9571",
-        "url": NaN
+        "url": ""
     },
     "Detail: Inside": {
         "issn": "no issn",
-        "url": NaN
+        "url": ""
     },
     "Detail: Structure": {
         "issn": "no issn",
-        "url": NaN
+        "url": ""
     },
     "Deutsche Bauzeitung": {
         "issn": "0721-1902",
-        "url": NaN
+        "url": ""
     },
     "Digest of South African architecture": {
         "issn": "1027-3468",
-        "url": NaN
+        "url": ""
     },
     "Dimensions": {
         "issn": "1074-6336",
-        "url": NaN
+        "url": ""
     },
     "Disegno di architettura": {
         "issn": "1121-8770",
-        "url": NaN
+        "url": ""
     },
     "Dlle (South Korea)": {
         "issn": "0003-8466",
-        "url": NaN
+        "url": ""
     },
     "D'ur : actualidad en urbanismo, arquitectura y ciudad = urbanism, architecture and cities now (Spain)": {
         "issn": "2013-9209",
-        "url": NaN
+        "url": ""
     },
     "Dwell (US)": {
         "issn": "1530-5309",
-        "url": NaN
+        "url": ""
     },
     "EAR: Edinburgh Architecture Review": {
         "issn": "0140-5039",
-        "url": NaN
+        "url": ""
     },
     "EGA: Revista de expresi\u00f3n gr\u00e1fica arquitect\u00f3nica": {
         "issn": "2254-6103",
-        "url": NaN
+        "url": ""
     },
     "En blanco : revista de arquitectura": {
         "issn": "1888-5616",
-        "url": NaN
+        "url": ""
     },
     "Ensayos sobre arquitectura y ceramic = Essays on architecture and ceramics (Spain)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Entre Rayas": {
         "issn": "1316-0257",
-        "url": NaN
+        "url": ""
     },
     "Environment and behavior": {
         "issn": "0013-9165",
-        "url": NaN
+        "url": ""
     },
     "Escala": {
         "issn": "0120-6702",
-        "url": NaN
+        "url": ""
     },
     "Estudios del Habitat": {
         "issn": "2422-6483",
-        "url": NaN
+        "url": ""
     },
     "Field: a Free Journal for Architecture": {
         "issn": "1755-0069",
-        "url": NaN
+        "url": ""
     },
     "Fine homebuilding": {
         "issn": "1096-360X",
-        "url": NaN
+        "url": ""
     },
     "Firenze architettura": {
         "issn": "1826-9772",
-        "url": NaN
+        "url": ""
     },
     "Florida Caribbean architect": {
         "issn": "0015-3907",
-        "url": NaN
+        "url": ""
     },
     "Follies journal": {
         "issn": "1474-7669",
-        "url": NaN
+        "url": ""
     },
     "Footprint: Delft architecture theory journal": {
         "issn": "1875-1505",
-        "url": NaN
+        "url": ""
     },
     "Fulcrum (AA school)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Future arquitectura": {
         "issn": "1885-8228",
-        "url": NaN
+        "url": ""
     },
     "Garten + Landschaft": {
         "issn": "0016-4720",
-        "url": NaN
+        "url": ""
     },
     "Gartenkunst": {
         "issn": "0935-0519",
-        "url": NaN
+        "url": ""
     },
     "Georgian Group journal": {
         "issn": "0963-1070",
-        "url": NaN
+        "url": ""
     },
     "Glazed expressions": {
         "issn": "0261-0329",
-        "url": NaN
+        "url": ""
     },
     "GSD Platform": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Harvard design magazine": {
         "issn": "1093-4421",
-        "url": NaN
+        "url": ""
     },
     "Heritage & Society": {
         "issn": "2159-032X",
-        "url": NaN
+        "url": ""
     },
     "Industria delle costruzioni": {
         "issn": "0579-4900",
-        "url": NaN
+        "url": ""
     },
     "Inform (Virginia)": {
         "issn": "1047-8353",
-        "url": NaN
+        "url": ""
     },
     "Informes de la construccion": {
         "issn": "1099-3234",
-        "url": NaN
+        "url": ""
     },
     "Interiors: design, architecture, culture (UK)": {
         "issn": "2041-9112",
-        "url": NaN
+        "url": ""
     },
     "International journal of heritage architecture": {
         "issn": "2058-833X",
-        "url": NaN
+        "url": ""
     },
     "International journal of Islamic architecture": {
         "issn": "2045-5895",
-        "url": NaN
+        "url": ""
     },
     "International refereed journal of architecture and design": {
         "issn": "2148-4880",
-        "url": NaN
+        "url": ""
     },
     "Intersight": {
         "issn": "1049-6564",
-        "url": NaN
+        "url": ""
     },
     "Iowa architect": {
         "issn": "0021-0439",
-        "url": NaN
+        "url": ""
     },
     "Irish architecture : the RIAI annual review": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Jian zhu xue bao = Architectural journal (China)": {
         "issn": "0529-1399",
-        "url": NaN
+        "url": ""
     },
     "Journal of green building": {
         "issn": "1552-6100",
-        "url": NaN
+        "url": ""
     },
     "Journal of interior design": {
         "issn": "1071-7641",
-        "url": NaN
+        "url": ""
     },
     "Journal of landscape architecture (India)": {
         "issn": "0975-0177",
-        "url": NaN
+        "url": ""
     },
     "Journal of planning history": {
         "issn": "1538-5132",
-        "url": NaN
+        "url": ""
     },
     "Journal of planning education and research": {
         "issn": "0739-456X",
-        "url": NaN
+        "url": ""
     },
     "Journal of Southeast Asian Architecture": {
         "issn": "0218-9593",
-        "url": NaN
+        "url": ""
     },
     "Journal of Sustainable Real Estate": {
         "issn": "no issn",
-        "url": NaN
+        "url": ""
     },
     "Journal of the Taliesin Fellows": {
         "issn": "1059-473X",
-        "url": NaN
+        "url": ""
     },
     "Journal of urban technology": {
         "issn": "1063-0732",
-        "url": NaN
+        "url": ""
     },
     "Landscape journal": {
         "issn": "0277-2426",
-        "url": NaN
+        "url": ""
     },
     "Landskab": {
         "issn": "0023-8066",
-        "url": NaN
+        "url": ""
     },
     "Leading architecture and design": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Marg": {
         "issn": "0023-2913",
-        "url": NaN
+        "url": ""
     },
     "MAS: medio, arquitectura, sociedad (Peru)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Materia arquitectura  (Chile)": {
         "issn": "0718-7032",
-        "url": NaN
+        "url": ""
     },
     "Metropolis": {
         "issn": "0279-4977",
-        "url": NaN
+        "url": ""
     },
     "Monograph.it (Spain)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Montreal architectural review": {
         "issn": "2368-6952",
-        "url": NaN
+        "url": ""
     },
     "Monu : magazine on urbanism": {
         "issn": "1860-3211",
-        "url": NaN
+        "url": ""
     },
     "Monumental": {
         "issn": "1168-4534",
-        "url": NaN
+        "url": ""
     },
     "New geographies": {
         "issn": "2152-047X",
-        "url": NaN
+        "url": ""
     },
     "North Carolina architecture": {
         "issn": "1045-3253",
-        "url": NaN
+        "url": ""
     },
     "OA&D: journal of organic architecture + design": {
         "issn": "no issn",
-        "url": NaN
+        "url": ""
     },
     "OASE": {
         "issn": "0169-6238",
-        "url": NaN
+        "url": ""
     },
     "Oculus": {
         "issn": "0885-5927",
-        "url": NaN
+        "url": ""
     },
     "Old-house journal": {
         "issn": "0094-0178",
-        "url": NaN
+        "url": ""
     },
     "ON dise\u00f1o": {
         "issn": "0210-2080",
-        "url": NaN
+        "url": ""
     },
     "Oris": {
         "issn": "1331-7571",
-        "url": NaN
+        "url": ""
     },
     "Oz / College of Architecture and Design Kansas State University": {
         "issn": "0888-7802",
-        "url": NaN
+        "url": ""
     },
     "Pasajes arquitectura y critica": {
         "issn": "1575-1937",
-        "url": NaN
+        "url": ""
     },
     "Perspectivas de arquitectura y diseno (Guatamala)": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Perspectives: the journal of the Ontario Assoc. of Architects": {
         "issn": "1192-8018",
-        "url": NaN
+        "url": ""
     },
     "Plan: architecture & technologies in detail (Italy)": {
         "issn": "1720-6553",
-        "url": NaN
+        "url": ""
     },
     "Planlama (Turkey)": {
         "issn": "1300-7319",
-        "url": NaN
+        "url": ""
     },
     "Polimorfo  (Puerto Rico)": {
         "issn": "2151-0695",
-        "url": NaN
+        "url": ""
     },
     "Praxis": {
         "issn": "1526-2065",
-        "url": NaN
+        "url": ""
     },
     "Preservation education and research": {
         "issn": "1946-5904",
-        "url": NaN
+        "url": ""
     },
     "Project Baikal": {
         "issn": "2307-4485",
-        "url": NaN
+        "url": ""
     },
     "Projections: MIT student journal of planning": {
         "issn": "1535-6191",
-        "url": NaN
+        "url": ""
     },
     "Projeto/Design": {
         "issn": "1808-6586",
-        "url": NaN
+        "url": ""
     },
     "Prostor / Arhitektonski fakultet Sveucilista u Zagrebu": {
         "issn": "1330-0652",
-        "url": NaN
+        "url": ""
     },
     "Proyecto, Progreso, Arquitectura (Sevilla)": {
         "issn": "2171-6897",
-        "url": NaN
+        "url": ""
     },
     "Quaderns d'arquitectura i urbanisme": {
         "issn": "1886-1989",
-        "url": NaN
+        "url": ""
     },
     "Rassegna di architettura e urbanistica": {
         "issn": "0392-8608",
-        "url": NaN
+        "url": ""
     },
     "RDA (Argentina)": {
         "issn": "2313-9633",
-        "url": NaN
+        "url": ""
     },
     "REIA (Revista Europea de Investigacion en arquitecture)": {
         "issn": "2340-9851",
-        "url": NaN
+        "url": ""
     },
     "Restauracion & rehabilitacion: R & R (Spain)": {
         "issn": "1134-4571",
-        "url": NaN
+        "url": ""
     },
     "Revista do Patrimonio Historico e Artistico Nacional": {
         "issn": "0102-2751",
-        "url": NaN
+        "url": ""
     },
     "Revista proyecto, progreso, arquitectura (Spain)": {
         "issn": "2171-6897",
-        "url": NaN
+        "url": ""
     },
     "Rivista dell'Istituto per la storia dell'arte lombarda": {
         "issn": "2039-4187",
-        "url": NaN
-    },
-    "NaN": {
-        "issn": NaN,
-        "url": NaN
+        "url": ""
     },
     "SAC journal": {
         "issn": "2198-3216",
-        "url": NaN
+        "url": ""
     },
     "SaveWright": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "scape": {
         "issn": "1389-742X",
-        "url": NaN
+        "url": ""
     },
     "Serbian architectural journal: SAJ": {
         "issn": "1821-3952",
-        "url": NaN
+        "url": ""
     },
     "Shi dai jian zhu = Time + architecture": {
         "issn": "1005-684X",
-        "url": NaN
+        "url": ""
     },
     "Shi jie jian zhu = World Architecture (China)": {
         "issn": "1002-4832",
-        "url": NaN
+        "url": ""
     },
     "Space (Korea)": {
         "issn": "1228-2472",
-        "url": NaN
+        "url": ""
     },
     "Spade India": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Spandrel: journal of SPA  (Bhopal, India)": {
         "issn": "2231-4601",
-        "url": NaN
+        "url": ""
     },
     "Storia urbana": {
         "issn": "0327-9022",
-        "url": NaN
+        "url": ""
     },
     "Summa+": {
         "issn": "0327-9022",
-        "url": NaN
+        "url": ""
     },
     "Tekton": {
         "issn": "2349-6282",
-        "url": NaN
+        "url": ""
     },
     "Texas architect": {
         "issn": "0040-4179",
-        "url": NaN
+        "url": ""
     },
     "Tile heritage": {
         "issn": "1078-5655",
-        "url": NaN
+        "url": ""
     },
     "Topos: the international review of landscape architecture and": {
         "issn": "0942-752X",
-        "url": NaN
+        "url": ""
     },
     "Trace (Chile)": {
         "issn": "0718-7710",
-        "url": NaN
+        "url": ""
     },
     "Traditional dwellings and settlements review": {
         "issn": "1050-5092",
-        "url": NaN
+        "url": ""
     },
     "Transactions of the Ancient Monuments Society": {
         "issn": "0951-001X",
-        "url": NaN
+        "url": ""
     },
     "True Principles: The journal of the Pugin Society": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     },
     "Twentyfirst  (Denmark)": {
         "issn": "2246-1612",
-        "url": NaN
+        "url": ""
     },
     "Versalia": {
         "issn": "1285-8412",
-        "url": NaN
+        "url": ""
     },
     "Vestnik of Tomsk State University of Architecture\u2026": {
         "issn": "1607-1859",
-        "url": NaN
+        "url": ""
     },
     "Vieilles maisons francaises": {
         "issn": "no ISSN",
-        "url": NaN
+        "url": ""
     },
     "Visiteur": {
         "issn": "1265-7034",
-        "url": NaN
+        "url": ""
     },
     "Volume": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     },
     "Wallpaper": {
         "issn": "1364-4475",
-        "url": NaN
+        "url": ""
     },
     "Western planner (US)": {
         "issn": "0279-0602",
-        "url": NaN
+        "url": ""
     },
     "World heritage": {
         "issn": "1020-4202",
-        "url": NaN
+        "url": ""
     },
     "Wright angles": {
         "issn": "1059-4396",
-        "url": NaN
+        "url": ""
     },
     "Xia international": {
         "issn": "0949-2356",
-        "url": NaN
+        "url": ""
     },
     "Zarch": {
         "issn": "2387-0346",
-        "url": NaN
+        "url": ""
     },
     "Architect [Netherlands]": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     },
     "Archis": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     },
     "Canadian building": {
-        "issn": NaN,
-        "url": NaN
+        "issn": "",
+        "url": ""
     }
 };
-//for each result in list
 
+//for each result in list
 for (var i = 0; i < contentDivList.length; i++){
 	// find the publisher name
 	var pub = contentDivList[i].getElementsByTagName("strong")[0].innerHTML;
@@ -1553,29 +1549,35 @@ for (var i = 0; i < contentDivList.length; i++){
     var contentLink = contentDivList[i].getElementsByClassName("horizontal pull-left no-margin content-item-links")[0];
     var a =  document.createElement('a');
     var listItem = document.createElement('li');
-    // please use hex color codes for all colors
+    // all colors here are written in hexadecimal color codes, but you don't have to
     // text colors for new links
+    // all link text colors are now white
     a.style.color = "#ffffff";
+    // make links open in new tab
     a.setAttribute('target','_blank')
-    // font family and fallback generic font family, i.e. "Times New Roman,serif"
+    // font family and fallback generic font family (typeface depends on your browser), i.e. "Times New Roman,serif"
     a.style.fontFamily = "Andale Mono,monospace"; 
+    // link will later be added to list item, make left and right margins 10px for the text
     listItem.style.padding = "0px 10px"; 
-    // if ucsb has it, add link, if it doesn't, add link to ucsb journal search results
-	if (pub in journals){
-        //background color for new links
+    // if ucsb certainly has it, add link to the journal's entry on ucsb library website
+    if (pub in journals){
+        //background color for new links to available journals
         listItem.style.backgroundColor = "#444444";
         a.setAttribute('href', journals[pub]["url"]);
-		a.textContent = " ucsb-library-link *<|:-) ";
+        a.textContent = " ucsb-library-link *<|:-) ";
         listItem.appendChild(a);
         contentLink.appendChild(listItem);
-	} else if (pub in journalsNo){
-        //background color for new links
+    // if ucsb certainly does not have it, link will say "unavailable at ucsb" and only refresh page when clicked
+    } else if (pub in journalsNo){
+        // background color is white
         listItem.style.backgroundColor = "#ffffff";
         a.setAttribute('href', '');
         a.textContent = " unavailable-at-ucsb ";
+        // text color is black
         a.style.color = "#000000";
         listItem.appendChild(a);
         contentLink.appendChild(listItem);
+    // if unsure about whether ucsb have it, link will say "ucsb-try-to-find", and direct to a ucsb library search result page using the publication name as keyword
     } else {
         //background color for new links
         listItem.style.backgroundColor = "#888888";

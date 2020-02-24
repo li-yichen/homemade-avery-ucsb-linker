@@ -49,15 +49,14 @@ it does this:
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" since the journal is not in the lists of available or unavailable Avery-indexed journals**. The lists are based on the antique ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve this** (see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 the developer(s) will also try to update these lists over time as they use the index.</br>
-both this repo and the updates.json file only starts with version 1.4</br>
-please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list of problems on quality of writing and coding.
+please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
 
 ## installation \*<|:-)
-a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.6.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
-on click, the toolbar button(see below) shows links to the spreadsheets, you are welcome to contribute to them.  
+a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.8.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
+on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
 --------feel free to stop reading now--------  
-b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for ways you can help ~~improve~~rewrite this tool.
+b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for ways you can help ~~improve~~ rewrite this tool.
 
 ## this will not work with: \*<|:-(
 safari
@@ -72,7 +71,7 @@ To modify anything, please install this by downloading:
 * [icon.png](https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/icon.png?raw=true)
 * [manifest.json](https://github.com/li-yichen/homemade-avery-ucsb-linker/blob/master/manifest.json?raw=true)</br>
 then put them into a folder. see the section "Loading a temporary extension" of https://developer.mozilla.org/en-US/docs/Tools/about:debugging.</br>
-to modify background color, color, and font family for links, please go to beep.js and change the respective variables from line 1554 to 1579 (see below) <sup>If you do not like the santa/fuzzy ball hat emoticon " *<|:-) " in the links or the " (′▽\`〃) " emoticon on your browser console log, please edit lines 1566, 1587 of the beep.js file and delete them from the respective variables to which they rightfully belong. </sup>
+to modify background color, color, and font family for links, please go to beep.js and change the respective variables from line 1554 to 1579 (see below) <sup>If you do not like the santa/fuzzy ball hat emoticon " *<|:-) " in the links or the " (′▽\`〃) " emoticon on your browser console log, please edit lines 1571, 1595 of the beep.js file and delete them from the respective variables to which they rightfully belong. </sup>
 ```
     // code excerpt starts here -->
     // all colors here are written in hexadecimal color codes, but you don't have to
@@ -111,7 +110,7 @@ to modify background color, color, and font family for links, please go to beep.
 ```
 
 ## updates and contribution \*<|:-)
-0. **to help this work better by expanding the list of journals:** **if you are interested and you have clicked on one of the 'try-ucsb-library' links, please contribute to the two lists of [confirmed available](https://docs.google.com/spreadsheets/d/1Ztya9WHD0sD8IiU55DFO5M0rYrhJbfm4LfO_NJCQ7i0/edit?gid=1343837595#gid=1343837595) and [unavailable](https://docs.google.com/spreadsheets/d/1Ztya9WHD0sD8IiU55DFO5M0rYrhJbfm4LfO_NJCQ7i0/edit?gid=1343837595#gid=1171591075) journals at UCSB**: https://docs.google.com/spreadsheets/d/1Ztya9WHD0sD8IiU55DFO5M0rYrhJbfm4LfO_NJCQ7i0/edit?usp=sharing thank you.  
+0. **to help this work better by expanding the list of journals:** **if you are interested and you have clicked on one of the 'try-ucsb-library' links, please contribute to the two lists of [confirmed available](https://docs.google.com/spreadsheets/d/1Ui3_NSFEeomenLZzjY2R-3TsAMa2yHGYy0s_OIwgjOQ/edit#gid=1343837595) and [unavailable](https://docs.google.com/spreadsheets/d/1Ui3_NSFEeomenLZzjY2R-3TsAMa2yHGYy0s_OIwgjOQ/edit#gid=1171591075) journals at UCSB**: https://docs.google.com/spreadsheets/d/1Ui3_NSFEeomenLZzjY2R-3TsAMa2yHGYy0s_OIwgjOQ/edit#gid=1682625286 thank you.  
 ^ to potential contributors of the extension itself: please add the list of contributors of above document into the beginning of every source code file, before/after<sup>(not sure)</sup> the copyright statement.  
 1. **to use the most up-to-date version of the lists:** please download them in .tsv format in the link above, rename as "journals.tsv" and "journals-unavailable.tsv", put them in the journal_info folder AND:  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;run jsonmaker.py if you have python, pandas, json, and os.  
