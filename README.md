@@ -12,12 +12,12 @@ hopefully uc-elinks will start working
 * [updates and contribution \*<|:-)](#updates-and-contribution--)
 * [privacy \*<|:-)](#privacy--)
 * [dependencies \*<|:-) ](#dependencies--)
-* [versions log \*<|:-) ](#versions-log--)
 * [thank you for visiting this page \*<|:-3](#thank-you-for-visiting-this-page--3)
 
 ##  what it does, and license \*<|:-)
 it does this:  
 <img src="../master/screenshots/screenshot_webpage.png" alt="alt text: Screenshot showing the extension working" width="800" height="474">
+license(/user agreement?):
 
     <Part of an avery index / ucsb link browser extension that adds ucsb library links to search  
     results on the proquest page of the avery index of architectural periodicals.
@@ -42,29 +42,29 @@ it does this:
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-<sup>*the santa/fuzzy ball hat emoticon came from http://www.yanwenzi.com/changyong/4.htm*</sup>
+
 <sup>the reason for the lack of upper case letters in this file is that they could look aggressive, **Especially WHEN BOLDED**.</sup></br>
 
 ## FLAWS (PLEASE READ) \*<|:-|
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 ### given the nonuniformity of the publication names on Proquest (often multiple written forms of same publication), the resulting searches (e.g."A V monografías = A V monographs") from "ucsb-try-to-find" sometimes lead to no results, even if the journal (e.g. "A&V") is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
-### there may be more unknown problems.
-the developer(s) will also try to update these lists over time as they use the index.</br>
+#### there may be more unknown problems. as stated in the license, this comes without warranty :0
+the developer(s) will also try to update these lists and fix problems over time.</br>
 please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
 
 ## installation \*<|:-)
 a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.8.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
 on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
---------feel free to stop reading now--------  
-b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for ways you can help ~~rewrite~~improve  this tool.
+------------------------feel free to stop reading now--------------------------------------  
+b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for how you can help ~~rewrite~~improve this tool.
 
 ## this will not work with: \*<|:-(
 safari
 
 ## it is not tested on: \*<|:-|
-chrome (plz reach out if you know how to do it
+chrome (please reach out if you know how to do it
 
 ## customization ~~\*<|:-)~~
 To modify anything, please install this by making a new folder on your computer, containing:  
@@ -122,13 +122,7 @@ to modify background color, color, and font family for links, please go to beep.
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then upload the two tsv files when asked  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download of .json files should automatically start  
 THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.)  
-2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. *to contribute to this repository, please email the owner(s) of this repository about what you plan on improving, and so that they could add you as an owner on the firefox add-on project page to make facilitate updates*  
-Please also respect other people and follow the the <sup>probably an overkill</sup>Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 areas needing contribution are:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.1 convoluted data storage and retrieval   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.2 two whole 1500+ lines json files are in the script  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.3 chrome? 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [ ] 2.1.4 the links are not aligned, and this readme file is typography crime&badly written 
+2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
 3. **contact info**: https://github.com/li-yichen, yichenli@ucsb.edu
 
 ## privacy \*<|:-)
@@ -137,13 +131,6 @@ Please also respect other people and follow the the <sup>probably an overkill</s
 ## dependencies \*<|:-) 
   none for beep.js.  
   if you'd like to generate a new list of journals with python, jsonmaker.py requires: pandas, json, os.
-  
-## versions log \*<|:-)
-<sub>despite the large version numbers, the code itself did not change very drastically, the developer moved too fast and broke stuff</sub>  
-v1.4: previous 3 contained too many typos   
-v1.5: added toolbar button and popup!  
-v1.6: fixed typo in popup link 
-v1.7: fixed many other typos  
-v1.8: fixed even more typos and updated the lists of journals  
+
 # thank you for visiting this page \*<|:-3
 <img src="../master/large.png" alt="alt text: icon of extension as large photo, white on dark gray emoticon of santa hat">
