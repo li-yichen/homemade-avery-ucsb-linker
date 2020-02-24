@@ -1,7 +1,7 @@
 ## <img src="../master/icon.png" alt="alt text: icon of extension, white on dark gray emoticon of santa hat" width="48" height="48"> Howdy!
-as you can see from the format of this document, the owner(s) of this repository are not affiliated with ucsb libary, nor with the avery index, please install at your own risk<sup><sup>The current developer tries to emphasize this by making the tool look as fun and janky as possible</sup></sup>.<br></br>
+as you can see from the format of this document, the owner(s) of this repository are not affiliated with ucsb libary, nor with the avery index, please install at your own risk.<br></br>
 if anyone is interested in using or contributing to this humble, weirdly specific (\*which is why firefox add-on store refused to publish it) function, please read the first 3 sections.<br></br>
-hopefully uc-elinks will start working and this tool will be useless
+hopefully uc-elinks will start working
 
 ## table of contents  
 * [what it does, and license \*<|:-)](#what-it-does-and-license--)
