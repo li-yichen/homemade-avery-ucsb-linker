@@ -1,7 +1,6 @@
 ## <img src="../master/icon.png" alt="alt text: icon of extension, white on dark gray emoticon of santa hat" width="48" height="48"> Howdy!
-as you can see from the format of this document, the owner(s) of this repository are not affiliated with ucsb libary, nor with the avery index, please install at your own risk.<br></br>
+as you can see from the format of this document, the owner(s) of this repository are not affiliated with ucsb libary, nor with the avery index.<br></br>
 if anyone is interested in using or contributing to this humble, weirdly specific (\*which is why firefox add-on store refused to publish it) function, please read the first 3 sections.<br></br>
-hopefully uc-elinks will start working
 
 ## table of contents  
 * [what it does, and license \*<|:-)](#what-it-does-and-license--)
@@ -49,16 +48,14 @@ license(/user agreement?):
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 ### given the nonuniformity of the publication names on Proquest (often multiple written forms of same publication), the resulting searches (e.g."A V monografías = A V monographs") from "ucsb-try-to-find" sometimes lead to no results, even if the journal (e.g. "A&V") is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
-#### there may be more unknown problems. as stated in the license, this comes without warranty :0
-the developer(s) will also try to update these lists and fix problems over time.</br>
-please see [updates and contribution \*<|:-)](#updates-and-contribution--) for a more detailed list.
+### if you encounter more problems or inaccuracies, please post in the "Issues" tab :0
 
 ## installation \*<|:-)
 a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.8.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
 on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
 ------------------------feel free to stop reading now--------------------------------------  
-b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by current developer, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for how you can help ~~rewrite~~improve this tool.
+b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by the owner of this repo, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for how you can help ~~rewrite~~improve this tool.
 
 ## this will not work with: \*<|:-(
 safari
@@ -122,7 +119,7 @@ to modify background color, color, and font family for links, please go to beep.
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then upload the two tsv files when asked  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download of .json files should automatically start  
 THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.)  
-2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
+2. **if you would like to ~~rewrite~~iMprOvE the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
 3. **contact info**: https://github.com/li-yichen, yichenli@ucsb.edu
 
 ## privacy \*<|:-)
