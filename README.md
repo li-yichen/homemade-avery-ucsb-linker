@@ -54,11 +54,15 @@ while the code will hopefully work on your browser,
 a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.8.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
 on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
-
+</br>
 ------------------------***feel free to stop reading now***-------------------------------------- 
-
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 b) if you are installing this as a developer on firefox or chrome: then, you do not need any information that can be provided by the owner of this repo, please consider reading the [updates and contribution \*<|:-)](#updates-and-contribution--) section for how you can help ~~rewrite~~improve this tool.
 
