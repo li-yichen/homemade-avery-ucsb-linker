@@ -1,6 +1,6 @@
 ## <img src="../master/icon.png" alt="alt text: icon of extension, white on dark gray emoticon of santa hat" width="48" height="48"> Howdy!
 as you can see from the format of this document, the owner(s) of this repository are not affiliated with ucsb libary, nor with the avery index.<br></br>
-if anyone is interested in using or contributing to this humble, weirdly specific (\*which is why firefox add-on store refused to publish it) function, please read the first 3 sections.<br></br>
+if anyone is interested in using or contributing to this humble, weirdly specific (\*which is why firefox add-on store refused to publish it) function, please read the first 3 sections(or skip the license/user agreement as usual).<br></br>
 
 ## table of contents  
 * [what it does, and license \*<|:-)](#what-it-does-and-license--)
