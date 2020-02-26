@@ -47,7 +47,7 @@ license(/user agreement?):
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 ### given the nonuniformity of the publication names on Proquest (often multiple written forms of same publication), the resulting searches (e.g."A V monografías = A V monographs") from "ucsb-try-to-find" sometimes lead to no results, even if the journal (e.g. "A&V") is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
-### if you encounter more problems or inaccuracies, please post in the "Issues" tab :0
+### if you encounter more problems or inaccuracies, please email or post in "Issues" tab
 
 ## installation \*<|:-)
 a) ***easiest way***: to install this on firefox with the .xpi file, **please download only the [.xpi file](https://github.com/li-yichen/homemade-avery-ucsb-linker/raw/master/homemade_ucsb_avery_linker_version_1.8.xpi)** and follow the direction here (in gray box): https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_how-do-i-find-and-install-add-ons, it should work straight away.  
