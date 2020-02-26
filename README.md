@@ -128,11 +128,11 @@ to modify background color, color, and font family for links, please go to beep.
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then upload the two tsv files when asked  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download of .json files should automatically start  
 THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.)  
-2. **if you would like to ~~rewrite~~iMprOvE the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
+2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
 3. **contact info**: https://github.com/li-yichen, yichenli@ucsb.edu
 
 ## privacy \*<|:-)
-<sup>first, the current developer is not skilled enough to steal your data</sup>This extension will ask for your permission to access the data on your search.proquest.com/avery/... visits, however, it will not save your data, as they are only used for finding out whether a journal in the search results is available, and for displaying links.
+<sup>first, the current developer is not skilled enough to steal your data</sup>This extension will ask for your permission to access the data on your search.proquest.com/avery/... visits, however, it will NOT save your data, they are only used for finding out whether a journal in the search results is available, and for displaying links.
 
 ## dependencies \*<|:-) 
   none for beep.js.  
