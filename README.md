@@ -54,7 +54,16 @@ a) ***easiest way***: to install this on firefox with the .xpi file, **please do
 on click, the toolbar button(see below) shows links to the spreadsheets of available and unavailable journals, you are welcome to contribute to them.  
 <img src="../master/screenshots/screenshot_button.png" alt="alt text: Screenshot showing the extension button" width="140" height="156">  
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 ------------------------***feel free to stop reading now***-------------------------------------- 
+</br>
+</br>
+</br>
 </br>
 </br>
 </br>
