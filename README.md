@@ -2,48 +2,20 @@
 if anyone is interested in using or contributing to this humble, weirdly specific (\*which is why firefox add-on store refused to publish it) function, please read the first 3 sections(or skip the license/user agreement as usual).<br></br>
 
 ## table of contents  
-* [what it does, and license \*<|:-)](#what-it-does-and-license--)
-* [FLAWS (PLEASE READ) \*<|:-|](#flaws-please-read--)
+* [what it does](#what-it-does)
+* [PROBLEMS (PLEASE READ) \*<|:-|](#problems-please-read--)
 * [installation (PLEASE READ THIS TOO) \*<|:-)](#installation--)
-* [this will not work with: \*<|:-(](#this-will-not-work-with--)
 * [customization ~~\*<|:-)~~](#customization--)
-* [updates and contribution \*<|:-)](#updates-and-contribution--)
-* [privacy \*<|:-)](#privacy--)
+* [updates to list of journals](#updates-and-contribution--)
 * [dependencies \*<|:-) ](#dependencies--)
 * [thank you for visiting this page \*<|:-3](#thank-you-for-visiting-this-page--3)
 
-##  what it does, and license \*<|:-)
+##  what it does
 it does this:  
 <img src="../master/screenshots/screenshot_webpage.png" alt="alt text: Screenshot showing the extension working" width="800" height="474">
 license(/user agreement?):
 
-    <Part of an avery index / ucsb link browser extension that adds ucsb library links to search  
-    results on the proquest page of the avery index of architectural periodicals.
-    To limit time waste and thumb pain from repeatedly copy-pasting titles from the
-    avery index into UCSB library search. I am not affiliated with UCSB Library, nor with
-    the Avery Index, I do not own the original .pdf list of journals 
-    file or the content in the .json or .js formats of list of journals, it came from 
-    https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html
-    since the link is quite old, please read the 'FLAWS' section in README.txt or 
-    README.md. this project's github page is: https://github.com/li-yichen/homemade-avery-ucsb-linker>
-    Copyright (C) <2020>  <Yichen Li> 
-	
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-<sup>the reason for the lack of upper case letters in this file is that they could look aggressive, **Especially WHEN BOLDED**.</sup></br>
-
-## FLAWS (PLEASE READ) \*<|:-|
+## PROBLEMS (PLEASE READ) \*<|:-|
 while the code will hopefully work on your browser,
 ### **the tool would label some journals as "ucsb-try-to-find" if the journal is not in the lists of available or unavailable Avery-indexed journals**, which are based on the *vintage* ["avery index current journals 6-21-18.pdf"](https://library.columbia.edu/libraries/avery/avery-index/current_periodicals.html).  **however, you can help improve them while using the tool** (please see [updates and contribution \*<|:-)](#updates-and-contribution--))  
 ### given the nonuniformity of the publication names on Proquest (often multiple written forms of same publication), the resulting searches (e.g."A V monografías = A V monographs") from "ucsb-try-to-find" sometimes lead to no results, even if the journal (e.g. "A&V") is actually available at UCSB. If it looks wrong, please double check whether it is available by searching the ISSN of the journal instead.
@@ -135,12 +107,7 @@ to modify background color, color, and font family for links, please go to beep.
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;click "run all"  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then upload the two tsv files when asked  
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download of .json files should automatically start  
-THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.)  
-2. **if you would like to ~~rewrite~~improve the code:** any help is appreciated. to contribute to this repository, please email the owner(s) of this repository about what you plan on changing, and *so that they could add you as an owner on the firefox add-on project page* to facilitate updates.
-3. **contact info**: https://github.com/li-yichen, yichenli@ucsb.edu
-
-## privacy \*<|:-)
-<sup>first, the current developer is not skilled enough to steal your data</sup>This extension will ask for your permission to access the data on your search.proquest.com/avery/... visits, however, it will NOT save your data, they are only used for finding out whether a journal in the search results is available, and for displaying links.
+THEN copy their contents into the variables 'journals' and 'journalsNo' in the beep.js file (it's the very long dictionary variable.) 
 
 ## dependencies \*<|:-) 
   none for beep.js.  
